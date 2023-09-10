@@ -1,0 +1,36 @@
+Question subject,Prompt subject
+Meta,NasdaqGS:META
+Microsoft,NasdaqGS:MSFT
+Amazon.com,NasdaqGS:AMZN
+Alphabet,NasdaqGS:GOOGL
+MongoDB,NasdaqGM:MDB
+Datadog,NasdaqGS:DDOG
+Adobe,NasdaqGS:ADBE
+salesforce.com,NYSE:CRM
+CrowdStrike,NasdaqGS:CRWD
+Snowflake,Snowflake
+ServiceNow,NYSE:NOW
+Okta,NasdaqGS:OKTA
+Twilio,NYSE:TWLO
+Palo Alto Networks,NASDAQ:PANW
+Workday,NasdaqGS:WDAY
+Guidewire,NYSE:GWRE
+Oracle,NYSE:ORCL
+Netflix,NasdaqGS:NFLX
+Pelonton,NasdaqGS:PTON
+Sportify,NYSE:SPOT
+Apple,NasdaqGS:AAPL
+NVIDIA,NasdaqGS:NVDA
+Snap,NYSE:SNAP
+Doordash,NYSE:DASH
+Chewy,NYSE:UBER
+Lyft,NasdaqGS:LYFT
+Airbnb,NasdaqGS:ABNB
+Etsy,NasdaqGS:ETSY
+Chewy,NYSE:CHWY
+Bookings,NasdaqGS:BKNG
+Expedia,NasdaqGS:EXPE
+GoodRx,NasdaqGS:GDRX
+Farfetch,NYSE:FTCH
+Paypal,NasdaqGS:PYPL
+Adyen,ENXTAM:ADYEN
