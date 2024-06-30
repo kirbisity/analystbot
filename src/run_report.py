@@ -91,7 +91,6 @@ with open(out_filename, "w") as f:
 
 with open(out_filename, "a") as f:
     for subject in subject_list:
-        print(subject)
         question_subject = subject["Question subject"]
         prompt_subject = subject["Prompt subject"]
         doc.add_heading(question_subject, 0)

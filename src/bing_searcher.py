@@ -24,7 +24,7 @@ class BingSearch:
         self.mkt = "en-US"
 
         if not self.is_api_key_valid():
-            raise Exception("Invalid AZURE_API_KEY")
+            raise Exception(f"Invalid AZURE_API_KEY {self.subscription_key}")
 
     # Construct a request
     def search(self, query:str):
@@ -51,5 +51,6 @@ class BingSearch:
             )
             response.raise_for_status()
         except Exception as ex:
+            print(ex)
             return False
         return True

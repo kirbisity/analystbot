@@ -23,8 +23,11 @@ class ChatGPTCaller(object):
 
         self.model = "gpt-3.5-turbo"
 
-        if not self.is_api_key_valid():
-            raise Exception("Invalid OPENAI_API_KEY")
+        # Verify api key validity
+        messages = [{"role": "user", "content": ""}]
+        chat = openai.ChatCompletion.create(model=self.model, messages=messages)
+        reply = chat.choices[0].message.content
+
 
     def send_message(self, message:list):
         """Send message to ChatGPT
